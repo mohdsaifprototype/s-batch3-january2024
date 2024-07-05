@@ -1,0 +1,52 @@
+*{
+  box-sizing: border-box;
+}
+
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+/* It will only if the .container is direct child */
+/* body > .container{
+  background-color: orange
+} */
+
+/* It selects all the decendants that has .container */
+main .container{
+  border: 8px solid red;
+}
+
+/* It selects all the decendants */
+main *{
+  border: 2px solid green;
+}
+
+/* ul > li:nth-child(2n){ */
+ul > li:nth-child(even){
+  background-color: yellow;
+}
+/* ul > li:nth-child(2n + 1){ */
+ul > li:nth-child(odd){
+  background-color: #00e5ff;
+}
+
+body > :last-child{
+  background-color: #dfd4d4;
+}
+
+li:last-child{
+  background-color: #e8bb74 !important;
+}
+
+li:first-child{
+  background-color: #f5f5f5 !important;
+}
+
+footer > div::first-letter{
+  font-size: 50px;
+}
+
+::selection{
+  background-color: green;
+}
