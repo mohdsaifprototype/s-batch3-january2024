@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  color: rgb(38, 186, 173);
+  height: 100vh;
+  position: relative;
+  z-index: 0;
+}
+
+body::before {
+  content: "";
+  background: url("../img/background.jpg") no-repeat center center / cover cyan;
+  /* opacity: 30%; */
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: -1;
+  /* opacity: 0.5; */
+  /* filter: blur(2px); */
+  filter: brightness(60%);
+  /* filter: contrast(40%); */
+  /* filter: drop-shadow(4px 4px 10px blue); */
+  /* filter: grayscale(30%); */
+  /* filter: hue-rotate(120deg); */
+  /* filter: invert(70%); */
+  /* filter: opacity(20%); */
+  /* filter: sepia(90%); */
+  /* filter: saturate(80%); */
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.container {
+  width: 90%;
+  /* background-color: #fff5; */
+  margin: auto;
+}

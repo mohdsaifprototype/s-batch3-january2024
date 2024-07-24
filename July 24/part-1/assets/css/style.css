@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  /* background-color: black;
+  color: white; */
+  
+  /* background-color: cyan; */
+  background-attachment: fixed;
+  /* background-position: top center; */
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-image: url("../img/spider-web.png");
+
+  /* background: url("../img/spider-web.png") no-repeat center center / contain cyan; */
+  height: 1000vh;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.container {
+  width: 90%;
+  /* background-color: #fff5; */
+  margin: auto;
+}
