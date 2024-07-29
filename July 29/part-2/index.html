@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>July 29 | CSS Part-2</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+      }
+      .conatiner {
+        border: 5px solid red;
+        width: 90%;
+      }
+      .child {
+        border: 5px solid green;
+        width: inherit;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="conatiner">
+      This is our parent element
+      <div class="child">This is our child element</div>
+      <div class="child">This is our child element</div>
+    </div>
+  </body>
+</html>
