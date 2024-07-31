@@ -1,0 +1,11 @@
+	/* This is single-line
+		as well as multi-line comment */
+	h3{
+		color: tomato;
+		background-color: powderblue;
+	}
+	p{
+		color: blue;
+		background-color: yellow;
+		
+	}
